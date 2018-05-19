@@ -67,7 +67,7 @@ while True:
 	print("\n")
 	print("%s 1: " % (fg("red")))+("%s Add Bots" % (fg("yellow")))
 	print("%s 2: " % (fg("red")))+("%s Command Bots" % (fg("yellow")))
-	print("%s 2: " % (fg("red")))+("%s List Bots" % (fg("yellow")))
+	print("%s 3: " % (fg("red")))+("%s List Bots" % (fg("yellow")))
 	print("\n \n")
 	menu_choice1 = input("%s <Botx>" % (fg("blue")))
 	
