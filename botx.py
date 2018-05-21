@@ -22,6 +22,7 @@ def addBot(host, user, password):
 	file = open("hosts.txt", "a+")
 	Bot = "%s %s %s" % (host, user, password)
 	file.write(Bot)
+	file.write("\n")
 
 #Scan from File
 def scanBots(filename):
