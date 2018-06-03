@@ -54,7 +54,7 @@ def sendCommand(cmd):
 				loginInfo.append(word)
 			s = pxssh.pxssh()
 			s.login(loginInfo[0], loginInfo[1], loginInfo[2])
-			s.sendlline(raw_input("%s Command: " % (fg("yellow"))))
+			s.sendline(raw_input("%s Command: " % (fg("yellow"))))
 			s.prompt()
 			print(s.before)
 
